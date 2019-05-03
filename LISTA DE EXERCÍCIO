@@ -1,0 +1,69 @@
+ lsta de exercicio de Introdução Orientação Objeto.
+
+1. É uma coisa, entidade, qualquer coisa que seja capaz imaginar
+e que tenha uma identidade.
+
+2. Caracteristicas Carro = Cor, Modelo, Marca
+   Comportamentos Carro = Anda, Pará, Abre a porta
+   
+3. Caracteristicas são válidos e Comportamentos são donos
+
+4. O POO TUDO PARA O FAZER DESENVOLVIMENTO ASSOCIADO AOS MOVIMENTOS DE COOPERAÇÃO
+
+5. A abstraction na POO.
+sem se apegar a pontos acidentais
+exemplo: Carros> modelos
+
+6. Encapsula features em comum de um grupo de objetos. Define os atributos e métodos que o objeto pode estar.
+
+7. Camelcase. Exemplo: CalculaDesconto ()
+
+8. Alternativa Certa 4. CarroEletrico
+
+9. Camelcase. Exemplo: corExterna
+
+10. Alternativa Certa 3. corDeFundo
+
+11. Camelcase. Exemplo: corExterna
+
+12. Alternativa Certa 1.estaVazio
+
+13. É uma coisa, entidade, qualquer coisa que possa imaginar e que tenha uma identidade.
+    Ele não tem nenhum momento que é instanciado na memória
+    Ele deixa de existir no momento em que ele é encerrado    
+
+14. Quando há uma criação de um novo objeto
+
+15. È um metodo especial ou operador especial para iniciar objetos
+    É usado para iniciar variáveis, instanciar outros objetos necessários, disparar métodos de inicialização.
+    O construtor deve tinha o mesmo nome da Classe
+    Classe NomeCarro construtor NomeCarro   
+
+16. O próprio compilador o cria
+
+17. Aluno p = novo Aluno ();
+
+18. Trata-se de um mecanismo que possibilita restringir o acesso a uma e as classes da classe (ou até a própria classe).
+
+19. Permitir a todos os tipos de eventos ou métodos
+
+20. Os membros da classe como não podem ser acessados ​​ou usados ​​por nenhuma classe.
+    Impedir que ninguém consiga nodificar ou ler o conteúdo em questão
+
+21. Séria através dos modificadores de acesso.
+
+22. Obter informações. Esse tipo de método sempre retorna um valor
+Exemplo: TextField trazNome = new TextField ();
+         traznome.setText (nome.getText ());
+
+23. Definir valores. Esse tipo de teste é o mesmo que ele
+Exemplo: TextField nome = new TextField ();
+         nome.setText ("FULANO");
+         
+24. O Nome da Clase; Os Atributos e os métodos
+
+25. 
+
+26.
+
+27.
