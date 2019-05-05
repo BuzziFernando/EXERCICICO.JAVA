@@ -125,6 +125,121 @@ Default
 Modificador de acesso padrão, usado quando nenhum for definido. Neste caso os atributos, métodos e classes são visíveis por todas as classes dentro do mesmo pacote.
 Em UML, é definido pelo símbolo “~” (package visibility).
 
+29.
+-nome: String 
+-email: String 
+-telefone:String
++setNome(nome: String) 
++setEmail(email: String) 
++setTelefone(telefone: String) 
++getNome(): String 
++getEmail(): String 
++getTelefone(): String
+
+30.
+public class Cliente {
+        
+    private String nome;
+    private String email;
+    private String telefone;
+        
+    public void Cliente(String iNome, String iEmail, String iTelefone) {
+        this.nome = iNome;
+        this.email = iEmail;
+        this.telefone = iTelefone;
+    }
+       
+    public void setNome(String novoNome) {
+        this.nome = novoNome;
+    }
+        
+    public void setEmail(String novoEmail) {
+        this.email = novoEmail;
+    }
+        
+    public void setTelefone(String novoTelefone) {
+        this.telefone = novoTelefone;
+    }
+        
+    public String getNome() {
+        return nome;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+    
+    public String getTelefone() {
+        return telefone;
+    }
+        
+}
+31.
+Produto:
+
+public class Produto {
+        
+    private String nome;
+        
+    public Produto(String iNome) {
+        this.nome = iNome;
+    }
+       
+    public void setNome(String novoNome) {
+        this.nome = novoNome;
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+}
+Password:
+
+public class Password {
+        
+    private String value;
+        
+    public void Password(String iValue) {
+        this.value = iValue;
+    }
+       
+    public boolean isEqual(String eValue) {
+        return (value == eValue);
+    }
+}
+Animal:
+
+public class Password {
+        
+    private boolean alive;
+        
+    public boolean isAlive() {
+        return alive;
+    }
+       
+    public boolean die() {
+        this.alive = false;
+    }
+}
+
+32. livro
+-nome:String
++setNome(nome: String) 
++getNome(): String
+
+contaCorrente
+-saldo:double
++sacar(valor: double): double 
++depositar(double valor) 
+-recalcularSaldo()
+
+Par
++chave: string 
++valor: string
+
+impressora 
++imprimir(Documento documento)
+
 37
 .O método main não pode ser declarado estático; métodos estáticos só podem ser declarados em um tipo de nível estático ou superior
 erro Cat c = new Cat();
