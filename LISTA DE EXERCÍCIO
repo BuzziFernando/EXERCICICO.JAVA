@@ -1,69 +1,130 @@
  lsta de exercicio de Introdução Orientação Objeto.
 
-1. É uma coisa, entidade, qualquer coisa que seja capaz imaginar
+1.
+É uma coisa, entidade, qualquer coisa que seja capaz imaginar
 e que tenha uma identidade.
 
-2. Caracteristicas Carro = Cor, Modelo, Marca
+2.
+Caracteristicas Carro = Cor, Modelo, Marca
    Comportamentos Carro = Anda, Pará, Abre a porta
    
-3. Caracteristicas são válidos e Comportamentos são donos
+3.
+Caracteristicas são válidos e Comportamentos são donos
 
-4. O POO TUDO PARA O FAZER DESENVOLVIMENTO ASSOCIADO AOS MOVIMENTOS DE COOPERAÇÃO
+4.
+O POO TUDO PARA O FAZER DESENVOLVIMENTO ASSOCIADO AOS MOVIMENTOS DE COOPERAÇÃO
 
-5. A abstraction na POO.
+5.
+A abstraction na POO.
 sem se apegar a pontos acidentais
 exemplo: Carros> modelos
 
-6. Encapsula features em comum de um grupo de objetos. Define os atributos e métodos que o objeto pode estar.
+6.
+Encapsula features em comum de um grupo de objetos. Define os atributos e métodos que o objeto pode estar.
 
-7. Camelcase. Exemplo: CalculaDesconto ()
+7.
+Camelcase. Exemplo: CalculaDesconto ()
 
-8. Alternativa Certa 4. CarroEletrico
+8.
+Alternativa Certa 4. CarroEletrico
 
-9. Camelcase. Exemplo: corExterna
+9.
+Camelcase. Exemplo: corExterna
 
-10. Alternativa Certa 3. corDeFundo
+10.
+Alternativa Certa 3. corDeFundo
 
-11. Camelcase. Exemplo: corExterna
+11.
+Camelcase. Exemplo: corExterna
 
-12. Alternativa Certa 1.estaVazio
+12.
+Alternativa Certa 1.estaVazio
 
-13. É uma coisa, entidade, qualquer coisa que possa imaginar e que tenha uma identidade.
+13.
+É uma coisa, entidade, qualquer coisa que possa imaginar e que tenha uma identidade.
     Ele não tem nenhum momento que é instanciado na memória
     Ele deixa de existir no momento em que ele é encerrado    
 
-14. Quando há uma criação de um novo objeto
+14.
+Quando há uma criação de um novo objeto
 
-15. È um metodo especial ou operador especial para iniciar objetos
+15.
+È um metodo especial ou operador especial para iniciar objetos
     É usado para iniciar variáveis, instanciar outros objetos necessários, disparar métodos de inicialização.
     O construtor deve tinha o mesmo nome da Classe
     Classe NomeCarro construtor NomeCarro   
 
-16. O próprio compilador o cria
+16.
+O próprio compilador o cria
 
-17. Aluno p = novo Aluno ();
+17.
+Aluno p = novo Aluno ();
 
-18. Trata-se de um mecanismo que possibilita restringir o acesso a uma e as classes da classe (ou até a própria classe).
+18.
+Trata-se de um mecanismo que possibilita restringir o acesso a uma e as classes da classe (ou até a própria classe).
 
-19. Permitir a todos os tipos de eventos ou métodos
+19.
+Permitir a todos os tipos de eventos ou métodos
 
-20. Os membros da classe como não podem ser acessados ​​ou usados ​​por nenhuma classe.
+20.
+Os membros da classe como não podem ser acessados ​​ou usados ​​por nenhuma classe.
     Impedir que ninguém consiga nodificar ou ler o conteúdo em questão
 
-21. Séria através dos modificadores de acesso.
+21.
+Séria através dos modificadores de acesso.
 
-22. Obter informações. Esse tipo de método sempre retorna um valor
+22.
+Obter informações. Esse tipo de método sempre retorna um valor
 Exemplo: TextField trazNome = new TextField ();
          traznome.setText (nome.getText ());
 
-23. Definir valores. Esse tipo de teste é o mesmo que ele
+23.
+Definir valores. Esse tipo de teste é o mesmo que ele
 Exemplo: TextField nome = new TextField ();
          nome.setText ("FULANO");
          
-24. O Nome da Clase; Os Atributos e os métodos
+24.
+O Nome da Clase; Os Atributos e os métodos
 
-25. 
+25.
+As formas gráficas que compõe cada diagrama são chamadas “elementos“. 
+Estes elementos são “o grande lance” da UML, é o que sustenta a ideia de “notação”, 
+é a sintaxe contida nos diagramas.
 
 26.
+atributos (numero ,cliente ,saldo)
+metodos(comportametais )(consutar sacar depositar )
 
-27.
+       A representaçao do objeto contem o estado formado pelas variaveis numero, cliente , e saldo. Em OO essa variaveis recebe o nome de 
+atributos. Ja o conportamento esta representado pelos metodos depositar sacar e consultar. Esses 3 metodos poderiam atuar sobre a variavel 
+saldo para aumentar (depositar), diminuir (sacar) ou sinplesmente verificar seu valor (consutar). Na pratica podem exestir outros metodos 
+para manipular os valores das outras variaveis tambem.
+
+27
+. O operador "New" e o responsavel pelo processo de instanciaçao do objeto, representando uma forma extremamente sinples de atribuir  valores 
+default a um objeto.
+
+28
+. Em UML, é definido pelo símbolo
+Private
+É o modificador de acesso mais restritivo que existe. Atributos e métodos declarados como private são acessíveis somente pela classe que os declara. 
+Em UML, é definido pelo símbolo “-”.
+
+Protected
+É um modificador de acesso um pouco mais permissivo que o private. Atributos e métodos declarados como protected são acessíveis pela classe que os declara, suas subclasses em outros pacotes e outras classes dentro do mesmo pacote.
+Em UML, é definido pelo símbolo “#”.
+Métodos e atributos declarados com o modificador protected numa superclasse devem ser definidos como protected ou public em suas subclasses e nunca private.
+
+Public
+Modificador de acesso mais permissivo que existe. Atributos, métodos e classes declarados como public são acessíveis por qualquer classe do Java.
+Em UML, é definido pelo símbolo “+”.
+Todos os métodos e atributos declarados como public são herdados pelas subclasses.
+Métodos e atributos declarados como public devem se manter public em todas as subclasses.
+
+Default
+Modificador de acesso padrão, usado quando nenhum for definido. Neste caso os atributos, métodos e classes são visíveis por todas as classes dentro do mesmo pacote.
+Em UML, é definido pelo símbolo “~” (package visibility).
+
+37
+.O método main não pode ser declarado estático; métodos estáticos só podem ser declarados em um tipo de nível estático ou superior
+erro Cat c = new Cat();
